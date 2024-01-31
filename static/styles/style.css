@@ -21,19 +21,18 @@ body {
     margin: 20px;
 }
 
-ol {
+.nav-bar {
     display: flex;
     flex-direction: row;
-    list-style: none;
     gap: 30px;
 }
 
-a {
+.nav-bar a {
     text-decoration: none;
     color: black;
 }
 
-li {
+.nav-bar li {
     display: inline-block;
 }
 
@@ -41,4 +40,24 @@ li {
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    margin: 20px;
+    padding: 30px;
+    background-color: white;
+}
+
+.card-list h2 {
+    font-size: 20px;
+    color: #FD9E00;
+}
+
+.card-list-option li {
+    margin: 20px;
+    font-size: 20px;
 }
