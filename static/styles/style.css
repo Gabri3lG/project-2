@@ -61,3 +61,21 @@ body {
     margin: 20px;
     font-size: 20px;
 }
+
+.card-1 {
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.heading-1 h1 {
+    color: #FD9E00;
+    font-size: 30px;
+}
+
+.span-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
