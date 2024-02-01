@@ -8,17 +8,13 @@ body {
     background-color: #EBEBEB;
 }
 
-.header {
-    background-color: white;
+header {
     display: flex;
-    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-}
-
-.logo {
-    margin: 20px;
+    padding: 20px;
+    background-color: white;
 }
 
 .nav-bar {
@@ -63,19 +59,42 @@ body {
 }
 
 .card-1 {
-    background-color: white;
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
-    padding: 20px;
+    margin: 20px;
+    padding: 30px;
+    width: 55%;
+    background-color: white;
 }
 
-.heading-1 h1 {
+.card-1 h2 {
     color: #FD9E00;
     font-size: 30px;
 }
 
-.span-container {
+.p-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.cover-1 {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.cover-p {
+    margin: 20px 0 30px 0;
+}
+
+.btn {
+    background-color: #FD6E00;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 20px;
+    text-align: start;
+    cursor: pointer;
 }

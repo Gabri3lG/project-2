@@ -10,29 +10,30 @@
 
 <body>
 
-
-    <div class="header">
-        <div class="logo">
-            <a href="index.html" target="_blank">
-                <img src="static/images/logo.jpg" alt="This is Web-Site Main Logo">
-            </a>
-        </div>
-        <nav>
-            <ol class="nav-bar">
-                <a href="index.html">
-                    <li>მთავარი</li>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html" target="_blank">
+                    <img src="static/images/logo.jpg" alt="This is Web-Site Main Logo">
                 </a>
-                <a href="#">
-                    <li>რეგისტრაცია</li>
-                </a>
-            </ol>
-        </nav>
-        <div class="input">
-            <form>
-                <input type="text" placeholder="მოიძიე">
-                <button>ძიება</button>
-            </form>
-        </div>
+            </div>
+            <nav>
+                <ol class="nav-bar">
+                    <a href="index.html">
+                        <li>მთავარი</li>
+                    </a>
+                    <a href="#">
+                        <li>რეგისტრაცია</li>
+                    </a>
+                </ol>
+            </nav>
+            <div class="input">
+                <form action="/submit" method="post">
+                    <input type="text" placeholder="მოიძიე">
+                    <input type="submit" value="ძიება" id="sumbit">
+                </form>
+            </div>
+        </header>
     </div>
 
     <div class="card-list">
@@ -45,24 +46,41 @@
     </div>
 
     <div class="card-1">
-        <div class="heading-1">
-        <h1>სათაური</h1>
+        <h2>სათაური</h2>
+        <div class="p-container">
+            <p>კატეგორია 1</p>
+            <p>კატეგორია 2</p>
+            <p>კატეგორია 3</p>
         </div>
-        <div class="span-container">
-            <div class="item-1">
-        <span>კატეგორია 1</span>
-        </div>
-        <div class="span-container">
-            <div class="item-1">
-        <span>კატეგორია 2</span>
-        </div>
-        <div class="span-container">
-            <div class="item-1">
-        <span>კატეგორია 3</span>
-        </div>
-        
-        </div>
+
+
+        <img src="static/images/cover1.jpg" alt="" class="cover-1">
+        <p class="cover-p">Lorem Ipsum საბეჭდი და ტიპოგრაფიული
+            ინდუსტრიის უშინაარსო ტექსტია. იგი
+            სტანდარტად 1500-იანი წლებიდან იქცა,
+            როდესაც უცნობმა მბეჭდავმა ამწყობ
+            დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.</p>
+        <input type="button" class="btn" value="სრულად ნახვა">
     </div>
+
+    <div class="card-1">
+        <h2>სათაური</h2>
+        <div class="p-container">
+            <p>კატეგორია 1</p>
+            <p>კატეგორია 2</p>
+            <p>კატეგორია 3</p>
+        </div>
+
+
+        <img src="static/images/cover2.jpg" alt="" class="cover-1">
+        <p class="cover-p">Lorem Ipsum საბეჭდი და ტიპოგრაფიული
+            ინდუსტრიის უშინაარსო ტექსტია. იგი
+            სტანდარტად 1500-იანი წლებიდან იქცა,
+            როდესაც უცნობმა მბეჭდავმა ამწყობ
+            დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.</p>
+        <input type="button" class="btn" value="სრულად ნახვა">
+    </div>
+
 </body>
 
 </html>
